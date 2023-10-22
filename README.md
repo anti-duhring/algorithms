@@ -1,1 +1,1 @@
-Repo to store some algorithms implemented using my 3 main langs: JavaScript, Java and Python
+Repo to store some algorithms implemented in any programming language
