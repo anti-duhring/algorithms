@@ -25,26 +25,3 @@ func binarySearch(arr []int, target int) bool {
 
 	return false
 }
-
-// func binarySearch(arr []int, val int) bool {
-// 	currentArr := arr
-// 	found := false
-
-// 	for len(currentArr) > 1 {
-// 		currentIndex := int(len(currentArr) / 2)
-// 		currentVal := currentArr[currentIndex]
-
-// 		fmt.Printf("currentIndex %v, currentVal %v, currentArr %v\n", currentIndex, currentVal, currentArr)
-// 		if currentVal > val {
-// 			currentArr = currentArr[:currentIndex]
-// 			continue
-// 		}
-// 		if currentVal < val {
-// 			currentArr = currentArr[currentIndex:]
-// 			continue
-// 		}
-// 		found = true
-// 		break
-// 	}
-// 	return found
-// }
